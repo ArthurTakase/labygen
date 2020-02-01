@@ -1,0 +1,6 @@
+Générateur de labyrinthe random
+
+Se lance avec le cmd
+>>> python3.8 (ou python) laby.py hauteur largeur
+
+Merci à Kaalister pour son aide sur le programme.
