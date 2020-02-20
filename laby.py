@@ -45,7 +45,7 @@ def gen() : # genere le tableau de base
         y, x = move(tab, y, x, ymax, xmax)
         if goto_up(tab, x, y) == "no" and goto_down(tab, x, y, ymax) == "no" and goto_left(tab, x, y) == "no" and goto_right(tab, x, y, xmax) == "no" and not end(tab, ymax, xmax):
                 x, y = newway(tab, ymax, xmax)
-        print_laby(tab)
-        time.sleep(0.1)
+    print_laby(tab)
+        #time.sleep(0.000001)
 
 gen()
